@@ -14,7 +14,7 @@ COPY . .
 # Install Nginx
 RUN apt-get update && apt-get install -y nginx
 
-# Copy Nginx configuration file
+# Copy Nginx configuration file to the right folder
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Expose ports for FastAPI (8000) and Nginx (80)
