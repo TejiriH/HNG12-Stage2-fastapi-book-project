@@ -272,11 +272,7 @@ We then accessed the application on
 
 - Port 80 not accessible? Make sure your EC2 security group allows HTTP traffic.
 
-- Permission denied for Docker? Use
-
-> sudo usermod -aG docker $User
-
-> sudo reboot
+- Permission denied for Docker? Use  ``` sudo usermod -aG docker $User ``` and logout and back into the instance.
 
 - GitHub Actions failing to SSH? Check if the PRIVATE_KEY_PEM is correct.
 
