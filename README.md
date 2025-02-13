@@ -274,7 +274,7 @@ We then accessed the application on
 
 - Permission denied for Docker? Use
 
-> sudo usermod -aG docker $ubuntu
+> sudo usermod -aG docker $User
 
 > sudo reboot
 
